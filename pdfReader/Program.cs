@@ -7,6 +7,13 @@ namespace pdfReader
     {
         static void Main()
         {
+        //    var pdfBytes = File.ReadAllBytes("testfile.pdf");
+
+
+        //}
+
+        //static void FirstMain()
+        //{
             var pdfs = new List<PDFobject>();
 
             var lines = File.ReadAllLines("testfile.pdf");
@@ -60,6 +67,7 @@ namespace pdfReader
             {
                 System.Console.WriteLine(x);
             }
+
         }
     }
 }
